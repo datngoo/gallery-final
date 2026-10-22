@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Accessible Photo Gallery</title>
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/gallery.js"></script>
+</head>
+<body onload="addTabFocus()">
+
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <img class="preview" alt="Snowy mountain peak at sunrise" src="https://picsum.photos/id/1018/800/800"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="River winding through a green valley" src="https://picsum.photos/id/1015/800/800"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Sunlight through a forest path" src="https://picsum.photos/id/1043/800/800"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Pug dog looking at the camera" src="https://picsum.photos/id/1025/800/800"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Lion resting in tall grass" src="https://picsum.photos/id/1074/800/800"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Calm lake with mountains in the distance" src="https://picsum.photos/id/1016/800/800"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
